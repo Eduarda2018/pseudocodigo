@@ -1,0 +1,26 @@
+Algoritmo "pseudocodigo "
+// Disciplina   :[Linguagem e Lógica de Programação]
+// Professor   :Eduarda Duarte
+// Descrição   :Aqui você descreve o que o programa faz! (função)
+// Autor(a)    :Eduarda Duarte
+// Data atual  :21/12/2022
+Var
+// Seção de Declarações das variáveis
+n1, n2, n3, n4, media :real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreval("Digite a 1ª nota :")
+leia(n1)
+escreval("Digite a 2ª nota :")
+leia(n2)
+escreval("Digite a 3ª nota :")
+leia(n3)
+escreval("Digite a 4ª nota :")
+leia(n4)
+media<- (n1 + n2 + n3 + n4) / 4
+se(media >= 5) entao
+escreval("O aluno foi aprovado com média: ",media)
+senao
+escreval("O aluno não foi aprovado com média: ",media)
+fimse
+Fimalgoritmo
