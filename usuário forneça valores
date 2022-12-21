@@ -1,0 +1,26 @@
+Algoritmo "pseudocodigo "
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Eduarda Duarte
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    :Eduarda Duarte
+// Data atual  : 21/12/2022
+Var
+// Seção de Declarações das variáveis 
+ n :real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("Digite um valor: ")
+
+leia(n)
+
+se(n >= 1) e (n <= 9) entao
+
+escreval("O valor está na faixa permitida")
+
+senao
+
+escreval("O valor não está na faixa permitida")
+
+fimse
+Fimalgoritmo
