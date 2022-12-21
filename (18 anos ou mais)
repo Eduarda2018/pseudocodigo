@@ -1,0 +1,27 @@
+Algoritmo "pseudocodigo "
+// Disciplina   :[Linguagem e Lógica de Programação]
+// Professor   :Eduarda Duarte
+// Descrição   :Aqui você descreve o que o programa faz! (função)
+// Autor(a)    :Eduarda Duarte
+// Data atual  :21/12/2022
+Var
+// Seção de Declarações das variáveis
+ano, idade: inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreval("digite seu ano de nascimento: ")
+leia(ano)
+// aqui vc colocar o ano atual aqui "2022" se for para "2023" colocar o ano "atual
+idade<- 2022 - ano
+escreval("Sua idade é: ",idade)
+se(idade >= 18) entao
+escreval("Ja tem idade para votar")
+escreval("Já tem idade para ter habilitação")
+senao
+se(idade >= 16 ) entao
+escreval("Já tem idade npara votar")
+senao
+escreval("Não pode votar e nem ter habilitação")
+fimse
+fimse
+Fimalgoritmo
