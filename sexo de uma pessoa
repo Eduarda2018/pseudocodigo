@@ -1,0 +1,25 @@
+Algoritmo "pseudocodigo "
+// Disciplina   :[Linguagem e Lógica de Programação]
+// Professor   :Eduarda Duarte
+// Descrição   :Aqui você descreve o que o programa faz! (função)
+// Autor(a)    :Eduarda Duarte
+// Data atual  :21/12/2022
+Var
+// Seção de Declarações das variáveis 
+nome, sexo :caractere
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("Digite o seu nome: ")
+leia(nome)
+escreval("Digite o seu sexo: ")
+leia(sexo)
+se(sexo = "Masculino") entao
+escreval("Ilmo Sr. ",nome)
+senao
+se(sexo = "Feminino") entao
+escreval("Ilmo Sra. ",nome)
+senao
+escreval("Digite um sexo válido")
+fimse
+fimse
+Fimalgoritmo
