@@ -1,0 +1,21 @@
+Algoritmo "pseudocodigo "
+// Disciplina   :[Linguagem e Lógica de Programação]
+// Professor   :Eduarda Duarte
+// Descrição   :Aqui você descreve o que o programa faz! (função)
+// Autor(a)    :Eduarda Duarte
+// Data atual  :21/12/2022
+Var
+// Seção de Declarações das variáveis
+n,a,b :real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreval("Digite um número: ")
+leia(n)
+se(n >= 0) entao
+a<- n
+escreval("O número :",a," é variável de A")
+senao
+b <- n
+escreval("O número :",b," é variável de B")
+fimse
+Fimalgoritmo
